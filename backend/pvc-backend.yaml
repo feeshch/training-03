@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: backend-pvc
+  name: backend-pvc03
   namespace: training03
 spec:
   storageClassName: ''
