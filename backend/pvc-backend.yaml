@@ -4,7 +4,7 @@ metadata:
   name: backend-pvc
   namespace: training03
 spec:
-  storageClassName: manual
+  storageClassName: ''
   accessModes:
     - ReadWriteOnce
   resources:
