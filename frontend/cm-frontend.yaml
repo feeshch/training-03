@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-config
-  namespace: dev03
+  namespace: training03
 data:
   nginx.conf: |
     server {

@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: frontend-route
-  namespace: dev03
+  namespace: training03
 spec:
   host: frontend-p3.apps.ocp-training-02.lab.feesh.ch
   to:

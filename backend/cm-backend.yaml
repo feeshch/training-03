@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: backend-config
-  namespace: dev03
+  namespace: training03
 data:
   DATABASE_URL: "postgresql://postgres:5432/mydb"
   LOG_LEVEL: "INFO"
