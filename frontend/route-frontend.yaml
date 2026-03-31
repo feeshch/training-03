@@ -1,0 +1,18 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: frontend-route
+  namespace: dev03
+spec:
+  host: frontend-p3.apps.ocp-training-02.lab.feesh.ch
+  to:
+    kind: Service
+    name: frontend-service
+    weight: 100
+  port:
+    targetPort: 80
+  tls:
+    termination: edge
+  wildcardPolicy: None
+
+
